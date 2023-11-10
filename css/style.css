@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,308 @@ html, body{
     font-weight: 400;
     color: #696969;
 }
+
+/* header */
+.navPoochCare a{
+    color: black;
+}
+.navPoochCare p{
+    font-size: 34px;
+    font-weight: 600;
+    color: #189A46;
+}
+#navbarPoochCare .nav-item::after{
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #189A46;
+    display: block;
+    transition: all 0.5s;
+}
+#navbarPoochCare .nav-item:hover::after{
+    width: 100%;
+
+}
+#navbarPoochCare .nav-item.active .nav-link{
+    color: #189A46;
+}
+
+
+#navbarPoochCare .nav-item{
+    padding: 0 12px;
+}
+#navbarPoochCare .nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all 0.5s;
+
+}
+#navbarPoochCare .nav-item:hover .nav-link{
+    color: #189A46;
+}
+#navbarPoochCare .dropdown-menu{
+    color: #000c04;
+    width: 100px;
+    font-size: 1.2rem;
+}
+#navbarPoochCare .dropdown-item:hover{
+    color: #189A46;
+}
+
+.red{
+    background: url( https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner2.jpg);
+    background-size: cover;
+}
+
+.green{
+    background-color: green;
+}
+
+
+/* .carousel */
+#carouselcyber{
+    position: relative;
+}
+
+
+#carouselcyber .carousel-caption{
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+
+#carouselcyber .carousel-caption h5{
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 76px;
+}
+
+#carouselcyber .carousel-caption p{
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+#carouselcyber .carousel-caption .phan1  {
+    max-width: 700px;
+}
+
+
+#carouselcyber .carousel-caption button{
+    margin: 0 4px;
+}
+
+#carouselcyber .carousel-caption button:first-of-type{
+    color: #189A46;
+    background-color: #fff;
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 10px;
+}
+#carouselcyber .carousel-caption button:last-of-type{
+    color:#fff;
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+#carouselcyber .carousel-caption button:last-of-type:hover{
+    color: #189A46;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+/* about us */
+.aboutus{
+    padding: 50px;
+    text-align: center;
+}
+.aboutus .content h6{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.aboutus .content h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000c04;
+}
+.aboutus .content p{
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+
+}
+.aboutus a{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #000c04;
+    border-radius: 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid #189A46;
+    font-weight: 600;
+    text-decoration: none;
+}
+.aboutus a:hover{
+    color: #189A46;
+    transition: all 0.5s;
+}
+
+/* .Services */
+.Services{
+    padding: 100px 0;
+    background-color: rgb(147 107 232 / 5%) ;
+}
+
+
+.Services .content{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.services .item{
+    padding: 30px 6px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    
+
+}
+
+.services .item:hover{
+    background-color: rgb(147 107 232 / 5%);
+    transition: all 0.5s;
+}
+
+.Services .item i{
+    color: #189A46;
+    font-size: 30px;
+}
+.Services .item h4{
+    color: #000c04;
+    font-weight: 600;
+} */
+
+
+
+
+
+
+
+.Services .item p{
+    color: #696969;
+    font-size: 1.2em;
+    line-height: 28px;
+
+}
+.Services .item a{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #000c04;
+    border-radius: 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid #189A46;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Services .item a:hover{
+    color: #189A46;
+    transition: all 0.5s;
+}
+ */
+
+/* .choose */
+
+
+.choose{
+    padding-top: 50px;
+}
+
+.choose .content .bg img{
+    max-width: 85%;
+    border-radius: 10px;
+
+}
+
+
+.choose .content{
+    display: flex;
+    padding: 90px 0;
+   
+}
+
+.choose .content .contenttt{
+    align-self: center;
+
+
+}
+.choose .content .contenttt h6 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.choose .content .contenttt h3{
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #000c04;
+}
+.choose .content .contenttt p{
+    font-size: 16px;
+    line-height: 24.5px;
+    color: #696969;
+    margin: 15px 0 35px 0;
+    font-style: normal;
+    font-weight: normal;
+}
+.choose .content .contenttt ul li{
+    margin: 15px 0;
+    font-weight: 600;
+    color: #000c04;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    font-style: normal;
+
+}
+.choose .content .contenttt ul li i{
+    font-size: 10px;
+    color: #189A46;
+    background-color: rgb(147 107 232 / 5%);
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+
+
+
 
 .sub-title{
     font-size: 18px;
