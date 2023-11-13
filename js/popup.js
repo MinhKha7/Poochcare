@@ -4,7 +4,7 @@ $(document).ready(function () {
   
       fixedContentPos: false,
       fixedBgPos: true,
-  
+      
       overflowY: "auto",
   
       closeBtnInside: true,
@@ -15,3 +15,7 @@ $(document).ready(function () {
       mainClass: "my-mfp-zoom-in"
     });
   });
+
+  document.querySelector(".popup-with-zoom-anim").onclick = ()=>{
+    document.querySelector(".pop-overlay").style.display = "block";
+  }
